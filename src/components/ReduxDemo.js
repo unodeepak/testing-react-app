@@ -6,6 +6,7 @@ import ReduxCompo from "./ReduxCompo";
 const About = () => {
   const count = useAppSelector((state) => state.counter);
   const dispatch = useAppDispatch();
+  
   return (
     <div>
       <h1>About Us</h1>
